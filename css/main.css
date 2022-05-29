@@ -53,29 +53,23 @@
   -o-animation: slideShows ease-in-out 25s both infinite;
   animation: slideShows ease-in-out 25s both infinite;
   background-repeat: no-repeat;
-background: url(../img/work/19.jpg), url(../img/work/19.jpg);
+background: url(../img/19.png), url(../img/19.png);
 }
 @keyframes slideShows{
   0% {
-    background-image: url(../img/work/19.jpg), url(../img/work/19.jpg)
+    background-image: url(../img/19.png), url(../img/19.png)
   }
-  10%{
-    background-image: url(../img/work/19.jpg), url(../img/work/4.jpg)
+  25%{
+    background-image: url(../img/19.png), url(../img/4.png)
   }
-  30%{
-    background-image: url(../img/work/4.jpg), url(../img/work/71.jpg)
+  50%{
+    background-image: url(../img/4.png), url(../img/71.png)
   }
-  40%{
-    background-image: url(../img/work/71.jpg), url(../img/work/55.jpg)
-  }
-  50% {
-    background-image: url(../img/work/55.jpg), url(../img/work/69.jpg)
-  }
-  70% {
-    background-image: url(../img/work/69.jpg), url(../img/work/19.jpg)
+  75%{
+    background-image: url(../img/71.png), url(../img/55.png)
   }
   100% {
-    background-image: url(../img/work/19.jpg), url(../img/work/19.jpg)
+    background-image: url(../img/55.png), url(../img/19.png)
   }
 }
 #mainSlideShow .container-xxl {
@@ -145,7 +139,7 @@ nav.navbar {
 .navbar-brand-text {
   font-size: 1.4em;
   letter-spacing: 3px;
-  color: var(--cutltured);
+  color: var(--richBlack);
   margin: 0 1.4em 0 0;
   text-decoration: none;
   font-weight: 365;
@@ -271,7 +265,7 @@ nav.navbar {
   font-size: .9em;
   padding: 4px 0px;
   margin: 10px 10px;
-  color: var(--cutltured);
+  color: var(--richBlack);
   text-transform: capitalize;
   position: relative;
   display: block;
@@ -301,7 +295,7 @@ nav.navbar {
 .nav-icon{
   font-size: 1.5rem;
   padding: 3px;
-  color: var(--cutltured);
+  color: var(--richBlack);
   text-decoration: none;
   transition-property: color;
   transition-duration: 0ms;
