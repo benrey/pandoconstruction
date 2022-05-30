@@ -618,7 +618,7 @@ li.item6 {
   background-color: #faf7f0 !important;
   background-size: cover !important;
   height: 140vw;
-  } 
+ } 
  nav.navbar {
   max-width: 92%;
  }
@@ -665,7 +665,13 @@ li.item6 {
     width: 8em;
   }
   .ms-4 {
-    margin-left: 3rem !important;
+    margin-left: -14rem !important;
+  }
+  .jumbotron {
+
+  }
+  .feature .box {
+   
   }
   .box {
     text-align: center;
