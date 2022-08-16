@@ -2863,6 +2863,7 @@ body.single-work #site-header.light nav li.menu-item-16 a:after {
 #site-footer .copyright img {
     height: 29px;
     width: 29px;
+    filter: brightness(.65);
 }
 
 @media (min-width:768px) {
